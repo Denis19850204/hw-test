@@ -1,0 +1,131 @@
+.footer {
+    background-color: var(--hero-bkg-color);
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.adress {
+    @media screen and (min-width: 768px) and (max-width: 1199.98px) {
+        display: flex;
+        flex-wrap: wrap;
+       
+        justify-content: space-around;
+
+    }
+
+    @media screen and (min-width: 1200px) {
+        display: flex;
+        align-items: baseline;
+    }
+}
+
+.address{
+@media screen and (max-width: 767.98px) {
+        margin-bottom: 60px;
+
+    }
+}
+
+.address-list {       
+    @media screen and (min-width: 1200px) {
+        display: flex;
+        flex-wrap: wrap;
+    }
+        color: var(--secondary-color);
+        font-family: 'Roboto';
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+}
+
+.address-list .contact:hover,
+.address-list .contact:focus {
+    color: var(--accent-color);
+}
+
+.street {
+    color: var(--secondary-color);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    text-align: center;
+    margin-bottom: 9px;
+
+}
+
+.mail {
+    text-align: center;
+    margin-bottom: 9px;
+}
+
+.phone{
+    text-align: center;
+}
+
+.contact {
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    font-style: normal;
+    font-family: 'Roboto';
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
+}
+
+.footer-subtitle {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.17;
+    color: var(--secondary-color);
+    margin-bottom: 20px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    @media screen and (max-width: 1199.98px) {
+            text-align: center;
+        }
+    
+}
+
+.footer-social-box{
+    @media screen and (max-width: 767.98px) {
+            margin-bottom: 60px;
+    
+        }
+
+        @media screen and (min-width: 1200px) {
+             margin-left: 70px;
+}
+               
+}
+
+.footer-social{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-adress{
+    // @media screen and (min-width: 768px) and (max-width: 1199.98px) {
+            
+    //         margin-bottom: 60px;
+    //     }
+
+    @media screen and (min-width: 1200px) {
+            width: 231px;
+        }
+}
+
+
+
+
+
+
+
+
+
